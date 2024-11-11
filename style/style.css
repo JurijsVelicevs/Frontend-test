@@ -28,7 +28,7 @@ h1 {
 
 .header__box {
     box-sizing: border-box;
-    background-image: url(/res/frontend_orlov.png);
+    background-image: url(../res/frontend_orlov.png);
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
@@ -227,7 +227,7 @@ h1 {
     display: block;
     width: 45px;
     height: 44px;
-    background-image: url(/res/content_html.png);
+    background-image: url(../res/content_html.png);
     margin-bottom: 23px;
 }
 
@@ -237,7 +237,7 @@ h1 {
     display: block;
     width: 45px;
     height: 44px;
-    background-image: url(/res/content_js.png);
+    background-image: url(../res/content_js.png);
     margin-bottom: 23px;
 }
 
@@ -247,7 +247,7 @@ h1 {
     display: block;
     width: 45px;
     height: 44px;
-    background-image: url(/res/content_lib.png);
+    background-image: url(../res/content_lib.png);
     margin-bottom: 23px;
 }
 
@@ -257,7 +257,7 @@ h1 {
     display: block;
     width: 45px;
     height: 44px;
-    background-image: url(/res/content_mob.png);
+    background-image: url(../res/content_mob.png);
     margin-bottom: 23px;
 }
 
