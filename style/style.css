@@ -1,0 +1,413 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "IBM Plex Mono";
+    letter-spacing: -0.03em;
+    font-weight: 400;
+}
+
+p {
+    font-size: 20px;
+    line-height: 26px;
+}
+
+h1 {
+    font-size: 80px;
+    line-height: 70px;
+}
+
+
+.container {
+    margin: 0 auto;
+    max-width: 1400px;
+    min-width: 1400px;
+    background-color: black;
+}
+
+.header__box {
+    box-sizing: border-box;
+    background-image: url(/res/frontend_orlov.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 765px;
+
+}
+
+.logo {
+    padding-top: 30px;
+    margin-left: 125px;
+}
+
+.logo__lnk {
+    display: inline-block;
+    cursor: default;
+    text-decoration: none;
+}
+
+.logo__img {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+.logo__txt {
+    position: absolute;
+    top: 21px;
+    left: 134px;
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 55.14px;
+    letter-spacing: -0.11em;
+    color: #1BFF07;
+}
+
+.nav__list {
+    display: inline-block;
+    float: right;
+    margin-right: 66px;
+}
+
+.nav__list li {
+    display: inline-block;
+
+}
+
+.nav__link {
+    line-height: 25px;
+    margin-right: 59px;
+    font-size: 18px;
+    letter-spacing: -0.11em;
+    text-decoration: none;
+    color: white;
+    cursor: default;
+}
+
+
+.nav__link:hover {
+    color: #1BFF07;
+}
+
+.title__txt {
+    position: absolute;
+    bottom: 94px;
+    left: 125px;
+    color: #1BFF07;
+    height: 205px;
+    width: 919px;
+    letter-spacing: -0.03em;
+
+}
+
+.about__txt {
+    position: absolute;
+    bottom: 328px;
+    left: 125px;
+    color: white;
+    height: 103px;
+    width: 430px;
+    letter-spacing: -0.03em;
+}
+
+.portfolio_sec {
+    margin-left: 125px;
+}
+
+.potfolio_title {
+    color: white;
+    padding-top: 150px;
+    margin-bottom: 55px;
+    line-height: 71.5px;
+    font-size: 55px;
+}
+
+.section__portfolio__list {
+    height: 550px;
+}
+
+.section__portfolio__img {
+    object-fit: contain;
+    height: 550px;
+    border-radius: 30px;
+}
+
+.section__portfolio__title {
+    color: white;
+    position: relative;
+    left: 50px;
+    top: -140px;
+    font-size: 35px;
+    line-height: 45.5px;
+    letter-spacing: -0.03em;
+    width: 200px;
+}
+
+.section__portfolio__title__review {
+    color: white;
+    position: relative;
+    width: 500px;
+    top: -140px;
+    left: 50px;
+    font-size: 30px;
+    line-height: 45.5px;
+    letter-spacing: -0.03em;
+}
+
+.button {
+    margin-top: 80px;
+    width: 582px;
+    height: 153px;
+    display: block;
+    color: black;
+    background-color: #1BFF07;
+    border-radius: 10px;
+    font-size: 30px;
+    line-height: 153px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    text-decoration: none;
+    cursor: default;
+}
+
+.button:hover {
+    border: 1px solid #1BFF07;
+    color: #1BFF07;
+    background-color: black;
+}
+
+.my_skill_sec {
+    margin-left: 125px;
+}
+
+
+.my_skill {
+    padding-top: 150px;
+    color: white;
+    line-height: 71.5px;
+    font-size: 55px;
+    letter-spacing: -0.03em;
+}
+
+.skill__title__html {
+    color: #1BFF07;
+    font-size: 35px;
+    letter-spacing: -0.03em;
+}
+
+.skill__title__js {
+    color: #1BFF07;
+    font-size: 35px;
+    letter-spacing: -0.03em;
+}
+
+.skill__title__lib {
+    color: #1BFF07;
+    font-size: 35px;
+    letter-spacing: -0.03em;
+}
+
+.skill__title__mob {
+    color: #1BFF07;
+    letter-spacing: -0.03em;
+    font-size: 35px;
+}
+
+.skill__title__review {
+    margin-top: 32px;
+    font-size: 22px;
+    letter-spacing: -0.03em;
+    color: white;
+}
+
+.skill__title__html:before {
+    margin-top: 63px;
+    content: '';
+    display: block;
+    width: 45px;
+    height: 44px;
+    background-image: url(/res/content_html.png);
+    margin-bottom: 23px;
+}
+
+.skill__title__js:before {
+    margin-top: 63px;
+    content: '';
+    display: block;
+    width: 45px;
+    height: 44px;
+    background-image: url(/res/content_js.png);
+    margin-bottom: 23px;
+}
+
+.skill__title__lib:before {
+    margin-top: 63px;
+    content: '';
+    display: block;
+    width: 45px;
+    height: 44px;
+    background-image: url(/res/content_lib.png);
+    margin-bottom: 23px;
+}
+
+.skill__title__mob:before {
+    margin-top: 63px;
+    content: '';
+    display: block;
+    width: 45px;
+    height: 44px;
+    background-image: url(/res/content_mob.png);
+    margin-bottom: 23px;
+}
+
+.services_sec {
+    margin-left: 125px;
+}
+
+.my_services {
+    font-size: 35px;
+    line-height: 45.5px;
+    padding-top: 150px;
+    color: white;
+    letter-spacing: -0.03em;
+}
+
+.services__list {
+    margin-top: 74px;
+}
+
+.services__list:last-child {
+    margin-top: 137px;
+}
+
+.section__list__txt__box {
+    width: 1150px;
+    height: 283px;
+    display: block;
+    background-color: #191C19;
+    border-radius: 30px;
+}
+
+.service__img__section__title {
+    color: #1BFF07;
+    font-size: 55px;
+    line-height: 71.5px;
+    margin-left: 45px;
+    padding-top: 40px;
+    letter-spacing: -0.03em;
+}
+
+.service__img__section__txt {
+    margin-top: 25px;
+    color: white;
+    font-size: 22px;
+    line-height: 28.6px;
+    margin-left: 40px;
+    letter-spacing: -0.03em;
+}
+
+.contacts_block {
+    padding-top: 150px;
+}
+
+.section_contacts {
+    box-sizing: border-box;
+    width: 1400px;
+    height: 717px;
+    border-radius: 30px;
+    background-color: #191C19;
+}
+
+.contacts_image {
+    position: relative;
+    border-radius: 30px;
+    background-size: cover;
+    top: -264px;
+    left: 673px;
+}
+
+.contact_information {
+    position: relative;
+    color: white;
+    width: 300px;
+    font-size: 35px;
+    left: 125px;
+    top: 320px;
+}
+
+.instagram {
+    display: block;
+    position: relative;
+    width: 300px;
+    font-size: 60px;
+    color: white;
+    text-decoration: none;
+    cursor: default;
+    left: -5px;
+    top: 50px;
+    padding-bottom: 25px;
+}
+
+.telegram {
+    display: block;
+    position: relative;
+    width: 300px;
+    font-size: 60px;
+    color: white;
+    text-decoration: none;
+    cursor: default;
+    left: -5px;
+    top: 40px;
+    padding-bottom: 25px;
+}
+
+.email {
+    display: block;
+    position: relative;
+    width: 300px;
+    font-size: 60px;
+    color: white;
+    text-decoration: none;
+    cursor: default;
+    left: -5px;
+    top: 30px;
+}
+.telegram:hover {
+    color: #1BFF07;
+}
+
+.instagram:hover {
+    color: #1BFF07;
+}
+
+.email:hover {
+    color: #1BFF07;
+}
+
+.footer {
+    background-color: white;
+    position: relative;
+    top: 151px;
+    height: 232px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.footer_main {
+    position: relative;
+    left: 125px;
+    color: black;
+    font-family: "Manrope";
+    top: 55px;
+    font-size: 22px;
+}
+
+.footer_copyrights {
+    position: relative;
+    color: grey;
+    top: 105px;
+    font-family: "Manrope";
+    margin-left: 125px;
+    font-size: 20px;
+}
